@@ -73,3 +73,13 @@ p{
 .hw{
     background-color: var(--hw_);
 }
+/*Media queries*/
+@media (max-width: 600px) {
+    table{
+        width: 100%;
+    }    
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+}
